@@ -1,0 +1,24 @@
+{
+    "name": "tatt5749/merchant",
+    "description": "Merchant package for merchant.",
+    "keywords": ["lavalite", "Merchant"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": {
+            "Merchant\\Merchant\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
